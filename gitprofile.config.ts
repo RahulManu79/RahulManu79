@@ -51,11 +51,11 @@ const CONFIG = {
       // ],
     },
   },
-  // seo: {
-  //   title: 'Portfolio of Ariful Alam',
-  //   description: '',
-  //   imageURL: '',
-  // },
+  seo: {
+    title: 'Portfolio of Rahul pr',
+    description: '',
+    imageURL: '',
+  },
   social: {
     linkedin: 'rahul pr',
     twitter: 'rahulmanu79',
