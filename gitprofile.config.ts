@@ -16,8 +16,8 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
+        limit: 10, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -31,127 +31,122 @@ const CONFIG = {
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
+      // projects: [
+      //   {
+      //     title: 'Project Name',
+      //     description:
+      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      //     imageUrl:
+      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      //     link: 'https://example.com',
+      //   },
+      //   {
+      //     title: 'Project Name',
+      //     description:
+      //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+      //     imageUrl:
+      //       'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      //     link: 'https://example.com',
+      //   },
+      // ],
     },
   },
-  seo: {
-    title: 'Portfolio of Ariful Alam',
-    description: '',
-    imageURL: '',
-  },
+  // seo: {
+  //   title: 'Portfolio of Ariful Alam',
+  //   description: '',
+  //   imageURL: '',
+  // },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'rahul pr',
+    twitter: 'rahulmanu79',
+    mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: '',
+    instagram: '__r__h__l___',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
     medium: 'arifszn',
-    dev: 'arifszn',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'https://rahulmanu79.github.io/RahulManu79Portfolio/',
+    phone: '8921619757',
+    email: 'rahulpr7902@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1orDx407BeYehVi4zWC0cuO3dQVqfpsS5/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
     'Nest.js',
+    'Expres.js'
+    'Mongo DB',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
     'Tailwind',
+    'Go Lang',
+    'Graph Ql',
+    'Neo 4j'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Approlabs pvt.ltd',
+      position: 'software Developer',
+      from: 'April 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://approlabs.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Packapeer',
+      position: 'MERN Stack developer - Trainee',
+      from: 'Augest 2022',
+      to: 'April 2023',
+      // companyLink: 'https://example.com',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  // certifications: [
+  //   {
+  //     name: 'Lorem ipsum',
+  //     body: 'Lorem ipsum dolor sit amet',
+  //     year: 'March 2022',
+  //     link: 'https://example.com',
+  //   },
+  // ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Calicut University',
+      degree: 'Bachelor of Commerce',
+      from: '2019',
+      to: '2022',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+  
   ],
   publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+    // {
+    //   title: 'Publication Title',
+    //   conferenceName: '',
+    //   journalName: 'Journal Name',
+    //   authors: 'John Doe, Jane Smith',
+    //   link: 'https://example.com',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    // },
+    // {
+    //   title: 'Publication Title',
+    //   conferenceName: 'Conference Name',
+    //   journalName: '',
+    //   authors: 'John Doe, Jane Smith',
+    //   link: 'https://example.com',
+    //   description:
+    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+    // },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
