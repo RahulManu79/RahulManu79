@@ -84,7 +84,7 @@ const CONFIG = {
     'React.js',
     'Node.js',
     'Nest.js',
-    'Expres.js'
+    'Expres.js',
     'Mongo DB',
     'MySQL',
     'PostgreSQL',
